@@ -31,26 +31,55 @@
 //alert(message);
 
 // скрипт 4
-const pricePerDroid = 3000;
-const credits = 23500;
-let enter = prompt("Cколько дронов купить?");
-let message;
-let totalprice;
-if (enter === null) {
-    message = 'Отменено пользователем!';
-    console.log('Отменено пользователем!');
-} else {
-    enter = Number(enter);
-    totalprice = (enter * pricePerDroid);
-    console.log("Цена заказа " + totalprice);
-    if (enter * pricePerDroid > credits) {
-        message = 'Недостаточно средств на счету!'; 
-        console.log("Недостаточно средств на счету!");  
-    } else {
-      const balance = credits - enter * pricePerDroid;
-      message = "Вы купили " + enter + " дронов, на счету осталось " + balance + " кредитов!";
-      console.log("Вы купили " + enter + " дронов, на счету осталось " + balance + " кредитов!");
-    } 
-}  
-alert(message);
+//const pricePerDroid = 3000;
+//const credits = 23500;
+//let enter = prompt("Cколько дронов купить?");
+//let message;
+//let totalprice;
+//if (enter === null) {
+//    message = 'Отменено пользователем!';
+//    console.log('Отменено пользователем!');
+//} else {
+//    enter = Number(enter);
+//    totalprice = (enter * pricePerDroid);
+//    console.log("Цена заказа " + totalprice);
+//    if (enter * pricePerDroid > credits) {
+//        message = 'Недостаточно средств на счету!'; 
+//       console.log("Недостаточно средств на счету!");  
+//    } else {
+//      const balance = credits - enter * pricePerDroid;
+//      message = "Вы купили " + enter + " дронов, на счету осталось " + balance + " кредитов!";
+//      console.log("Вы купили " + enter + " дронов, на счету осталось " + balance + " кредитов!");
+//    } 
+//}  
+//alert(message);
 
+//const country = prompt("Введите страну");
+//let price;
+//let message;
+
+//switch (country.toLowerCase()) {
+//    case 'китай':
+//        price = 100;
+//        message = "Доставка в "+ country + " будет стоить " + price + " кредитов";
+//        break;
+//    case 'чили':
+//        price = 250;
+//        message = "Доставка в "+ country + " будет стоить " + price + " кредитов";
+//        break;
+//    case 'австралия':
+//        price = 170;
+//        message = "Доставка в "+ country + " будет стоить " + price + " кредитов";
+//        break;
+//    case 'индия':
+//        price = 80;
+//        message = "Доставка в "+ country + " будет стоить " + price + " кредитов";
+//        break;
+//    case 'ямайка':
+//        price = 120;
+//        message = "Доставка в "+ country + " будет стоить " + price + " кредитов";
+//        break;
+//    default:
+//        message = "В вашей стране доставка не доступна";
+//}
+//alert(message);
