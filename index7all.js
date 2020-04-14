@@ -1,12 +1,18 @@
 'use strict';
-// скрипт 1
+
+                                                 // скрипт 1
 //const name = "Генератор защитного поля";
 //let price = 1000;
 //console.log('Выбран '+name+', цена за штуку '+price+' кредитов');
 //price = 2000;
 //console.log('Выбран '+name+', цена за штуку '+price+' кредитов');
 
-// скрипт 2
+
+
+
+
+
+                                                 // скрипт 2
 //const total = 100;
 //const ordered = 50;
 //let res;
@@ -17,7 +23,11 @@
 //}
 //console.log(res);
 
-// скрипт 3
+
+
+
+
+                                                // скрипт 3
 //const ADMIN_PASSWORD = 'jqueryismyjam';
 //let message;
 //const enter = prompt('Your password');
@@ -30,7 +40,10 @@
 //}
 //alert(message);
 
-// скрипт 4
+
+
+
+                                                   // скрипт 4
 //const pricePerDroid = 3000;
 //const credits = 23500;
 //let enter = prompt("Cколько дронов купить?");
@@ -55,7 +68,11 @@
 //alert(message);
 
 
-// скрипт 5
+
+
+
+
+                                               // скрипт 5
 // const country = prompt("Введите страну");
 // let price;
 // let message;
@@ -89,26 +106,29 @@
 // alert(message);
 
 
-// скрипт 6
 
-let input;
-let total = 0;
 
-do {
-    input = prompt('Введите число');
-    if (input === null) {
-        break;
-    }
 
-    if (Number.isNaN(Number(input))) {
-        alert('Было введено не число, попробуйте еще раз');
-    } else {
-        total = total + Number(input);
-    }
-}
-while (input !== null);
 
-alert("Общая сумма чисел равна " + total +".");
+                                                   // скрипт 6
+// let input;
+// let total = 0;
+
+// do {
+//     input = prompt('Введите число');
+//     if (input === null) {
+//         break;
+//     }
+
+//     if (Number.isNaN(Number(input))) {
+//         alert('Было введено не число, попробуйте еще раз');
+//     } else {
+//         total = total + Number(input);
+//     }
+// }
+// while (input !== null);
+
+// alert("Общая сумма чисел равна " + total +".");
 
 
 
